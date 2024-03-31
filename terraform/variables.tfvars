@@ -8,4 +8,4 @@ dataset-name = "nyctaxi"
 table-name   = "yellow-tripdata"
 
 dataproc-cluster-name = "dataproc-cluster"
-template_gcs_path = "gs://my-bucket/templates/template_file"
+template_gcs_path     = "gs://my-bucket/templates/template_file"
