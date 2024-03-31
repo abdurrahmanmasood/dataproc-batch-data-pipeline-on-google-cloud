@@ -7,6 +7,5 @@ temp-file-bucket = "temp-file-bucket-name"
 dataset-name = "nyctaxi"
 table-name   = "yellow-tripdata"
 
-dataproc-job-name = "nyctaxi-yellow-tripdata-job"
+dataproc-cluster-name = "dataproc-cluster"
 template_gcs_path = "gs://my-bucket/templates/template_file"
-
