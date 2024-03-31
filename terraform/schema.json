@@ -1,0 +1,152 @@
+[
+  {
+    "name": "vendor_name",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Vendor name"
+  },
+  {
+    "name": "pickup_datetime",
+    "type": "DATETIME",
+    "mode": "NULLABLE",
+    "description": "Pickup datetime"
+  },
+  {
+    "name": "pickup_datetime_day",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": "Pickup datetime day"
+  },
+  {
+    "name": "pickup_datetime_month",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": "Pickup datetime month"
+  },
+  {
+    "name": "pickup_datetime_year",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": "Pickup datetime year"
+  },
+  {
+    "name": "dropoff_datetime",
+    "type": "DATETIME",
+    "mode": "NULLABLE",
+    "description": "Dropoff datetime"
+  },
+  {
+    "name": "dropoff_datetime_day",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": "Dropoff datetime day"
+  },
+  {
+    "name": "dropoff_datetime_month",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": "Dropoff datetime month"
+  },
+  {
+    "name": "dropoff_datetime_year",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": "Dropoff datetime year"
+  },
+  {
+    "name": "passenger_count",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": "Passenger count"
+  },
+  {
+    "name": "trip_distance",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": "Trip distance"
+  },
+  {
+    "name": "RatecodeID",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Ratecode ID"
+  },
+  {
+    "name": "store_and_fwd_flag",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Store and forward flag"
+  },
+  {
+    "name": "PULocationID",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": "Pickup location ID"
+  },
+  {
+    "name": "DOLocationID",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": "Dropoff location ID"
+  },
+  {
+    "name": "payment_type",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Payment type"
+  },
+  {
+    "name": "fare_amount",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": "Fare amount"
+  },
+  {
+    "name": "extra",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": "Extra"
+  },
+  {
+    "name": "mta_tax",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": "MTA tax"
+  },
+  {
+    "name": "tip_amount",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": "Tip amount"
+  },
+  {
+    "name": "tolls_amount",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": "Tolls amount"
+  },
+  {
+    "name": "improvement_surcharge",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": "Improvement surcharge"
+  },
+  {
+    "name": "total_amount",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": "Total amount"
+  },
+  {
+    "name": "congestion_surcharge",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": "Congestion surcharge"
+  },
+  {
+    "name": "airport_fee",
+    "type": "FLOAT64",
+    "mode": "NULLABLE",
+    "description": "Airport fee"
+  }
+]
